@@ -6,7 +6,7 @@
 #define MQTT_BROKER_PORT    1883
 #define MQTT_CLIENT_ID      "LTE-LCD-01"
 #define MQTT_USERNAME       "limelightit"
-#define MQTT_PASSWORD       "4P5t3XmBhQ6C"
+#define MQTT_PASSWORD       "CHANGE_ME"
 #define MQTT_BASE_TOPIC     "Limelight/LTE-LCD-01"
 #define MQTT_KEEPALIVE_SEC  60
 
