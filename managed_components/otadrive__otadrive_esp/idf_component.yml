@@ -1,0 +1,11 @@
+dependencies:
+  idf:
+    version: '>=4.4.0'
+description: OTA library, the OTAdrive.com SDK library for ESP32 series
+documentation: https://otadrive.com/doc/
+license: MIT
+maintainers:
+- Mostafa Heidari <mostafa.hk@gmail.com>
+repository: https://github.com/otadrive/otadrive_esp_idf.git
+url: https://github.com/otadrive/otadrive_esp_idf
+version: 2.0.6

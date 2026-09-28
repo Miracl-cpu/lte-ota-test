@@ -1,0 +1,3 @@
+dependencies:
+  otadrive/otadrive_esp:
+    version: "*"

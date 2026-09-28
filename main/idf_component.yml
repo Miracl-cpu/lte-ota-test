@@ -1,0 +1,6 @@
+dependencies:
+  idf:
+    version: '>=4.1.0'
+  nixy4/u8g2: ^0.1.3
+  espressif/cjson: ^1.7.19
+  espressif/mqtt: "*"

@@ -1,0 +1,9 @@
+menu "OTAdrive Configuration"
+
+    config CONFIG_OTADRIVE_OTA_BUF_SIZE
+        int "OTA Download buffer size"
+        default 32768
+        range 4096 131072
+        help
+            Connect to the OTAdriasdsadve through SSL
+endmenu

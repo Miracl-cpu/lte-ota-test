@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "provisioning_mgr.c"
+        "setup_trigger.c"
+        "setup_softap.c"
+        "setup_webserver.c"
+        "web_content.c"
+    INCLUDE_DIRS "include" "."
+    REQUIRES
+        nvs_config
+        OTA_drive
+        esp_wifi
+        esp_netif
+        esp_http_server
+        esp_event
+        espressif__cjson
+        log
+        freertos
+        lwip
+        esp_timer
+        log_config
+)
