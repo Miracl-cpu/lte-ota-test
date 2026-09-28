@@ -36,3 +36,12 @@ idf.py -p COMx flash monitor
 The project references the original repository components through
 `EXTRA_COMPONENT_DIRS`, so keep this folder beside the repository's
 `components` directory.
+
+## Free HTTPS OTA test
+
+Enable GitHub Pages for the `main` branch and repository root. The firmware
+URL will be:
+
+```text
+https://YOUR_USERNAME.github.io/lte-ota-test/ota/lte_lcd_project-3.1.5.bin
+```
